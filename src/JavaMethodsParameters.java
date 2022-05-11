@@ -7,9 +7,7 @@ public class JavaMethodsParameters {
 
 		System.out.print("ingrese un indice de la secuencia de fibonacci: ");
 		int input = sc.nextInt();
-
 		System.out.print("El numero " + input + " de la secuencia de fibonacci es: " + fibonacci(input));
-
 	}
 
 	public static int fibonacci(int index) {
@@ -21,7 +19,5 @@ public class JavaMethodsParameters {
 			a = temp;
 		}
 		return fibonacci;
-
 	}
-
 }

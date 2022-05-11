@@ -6,7 +6,6 @@ public class JavaMethods {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("ingrese 2 numeros y el signo de la operacion que desea realizar: ");
-
 		System.out.println(arithmethicOperation(sc.nextInt(), sc.nextInt(), sc.next().charAt(0)));
 	}
 
@@ -21,7 +20,5 @@ public class JavaMethods {
 			return num1 / num2;
 		else
 			return -1;
-
 	}
-
 }

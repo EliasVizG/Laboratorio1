@@ -13,6 +13,5 @@ public class JavaTypeCasting {
 		System.out.println(y);
 		System.out.println(x + " + " + y + " = " + sum);
 		System.out.println(x + " < " + y + " is " + (x < y));
-
 	}
 }

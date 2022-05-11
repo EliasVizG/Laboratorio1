@@ -14,6 +14,5 @@ public class JavaIfElse {
 				: ((num1 < num2) ? "El primer numero es menor" : "El primer numero es mayor");
 
 		System.out.println(output);
-
 	}
 }

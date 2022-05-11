@@ -13,6 +13,5 @@ public class JavaOutput {
 			System.out.println("7 + 8 * 9 = " + (7 + 8 * 9));
 		else
 			System.out.println("No quiere aprender matematicas");
-
 	}
 }

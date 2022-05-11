@@ -24,6 +24,5 @@ public class JavaVariables {
 					.println(name + " " + surname + ", age: " + age + ", sex: " + sex + ", Civil state: " + civilState);
 		else
 			System.out.println("No quiere saber sobre Alberto");
-
 	}
 }

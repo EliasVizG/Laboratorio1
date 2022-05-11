@@ -11,18 +11,14 @@ public class JavaComments {
 
 		System.out.print("Ingrese 1 para aprender matematicas: ");
 		String choice = sc.nextLine();
-		
+
 		/*
-		 * Tambien se pueden 
-		 * hacer comentarios 
-		 * en varias lineas 
-		 * de esta forma
+		 * Tambien se pueden hacer comentarios en varias lineas de esta forma
 		 */
-		
+
 		if (choice.equals("1"))
 			System.out.println("7 + 8 * 9 = " + (7 + 8 * 9));
 		else
 			System.out.println("No quiere aprender matematicas");
-
 	}
 }

@@ -5,7 +5,6 @@ public class JavaBreakContinue {
 	public static void main(String[] args) {
 		Random rd = new Random();
 		int random;
-
 		int[] numbers = new int[50];
 
 		for (int i = 0; i < numbers.length; i++) {
@@ -20,7 +19,6 @@ public class JavaBreakContinue {
 			}
 			numbers[i] = random;
 		}
-
 		for (int i : numbers)
 			System.out.print(i + " ");
 	}

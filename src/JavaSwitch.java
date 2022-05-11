@@ -1,14 +1,12 @@
 import java.util.Scanner;
 
 public class JavaSwitch {
-
 	public static void main(String[] args) {
-
 		Scanner sc = new Scanner(System.in);
-
 		while (true) {
-			System.out
-					.println("1. Saludo\n2. Ingrese 2 numeros para sumar\n3. Ingrese 2 numeros para restar\n4. Salir");
+			System.out.println(
+					"1. Saludo\n2. Ingrese 2 numeros para sumar\n"
+					+ "3. Ingrese 2 numeros para restar\n4. Salir");
 			int input = sc.nextInt();
 
 			switch (input) {

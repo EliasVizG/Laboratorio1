@@ -6,7 +6,6 @@ public class JavaMethodsOverloading {
 		System.out.println(RectangularArea(10, 4));
 		System.out.println(RectangularArea(5));
 		System.out.println(RectangularArea());
-
 	}
 
 	public static int RectangularArea(int x, int y) {

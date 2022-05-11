@@ -20,6 +20,5 @@ public class JavaScope {
 
 		for (int i = 8; i < 10; i++)
 			System.out.print(i * 7 + " ");
-
 	}
 }

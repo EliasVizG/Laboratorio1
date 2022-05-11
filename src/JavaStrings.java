@@ -17,6 +17,5 @@ public class JavaStrings {
 		String input1 = sc.nextLine();
 		System.out.println("Ambas cadenas unidas serian: " + input.concat(input1));
 		System.out.println("Las separaremos con un slash: " + input + "\\" + input1);
-
 	}
 }

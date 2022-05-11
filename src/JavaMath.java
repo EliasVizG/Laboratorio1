@@ -13,6 +13,5 @@ public class JavaMath {
 		System.out.println("El cateto mayor es: " + Math.max(num1, num2));
 		System.out.println("El cateto menor es: " + Math.min(num1, num2));
 		System.out.println("La hipotenusa del triangulo es: " + Math.hypot(num1, num2));
-
 	}
 }
